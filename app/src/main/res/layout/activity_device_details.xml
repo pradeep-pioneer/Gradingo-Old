@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.pioneersoft.gradingo.DeviceDetails">
+    <TableLayout
+        android:stretchColumns="1"
+        android:background="@color/colorPrimary"
+        android:backgroundTintMode="add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:text="Manufacturer: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/manufacturer"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Market Name: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/marketName"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Code Name: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/codeName"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Model: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/model"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Full Name: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/fullName"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="IMEI1: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/imei1"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="IMEI2: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/imei2"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Wi-Fi MAC Address: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/wifiMacAddress"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="BT MAC Address: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/btMacAddress"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="IMEI Software Version: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/swVersion"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Phone Type: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/phoneType"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Sim State: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/simState"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Total RAM: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/totalRAM"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Available RAM: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/availableRAM"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Total Internal Memory: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/totalInternalMemory"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Available Internal Memory: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/availableInternalMemory"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Total External Memory: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/totalExternalMemory"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Available External Memory: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/availableExternalMemory"
+                android:text="Device: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <com.github.mikephil.charting.charts.PieChart
+                android:layout_span="2"
+                android:id="@+id/totalIMemoryChart"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="400px"/>
+        </TableRow>
+    </TableLayout>
+</android.support.v4.widget.NestedScrollView>
